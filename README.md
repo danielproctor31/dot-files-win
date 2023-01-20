@@ -7,7 +7,7 @@ https://github.com/ralish/PSDotFiles
 Install-Module -Name PSDotFiles
 ```
 
-Clone this repository into $HOME/dot-files-win.
+Clone this repository into `$HOME/dot-files-win`.
 
 ## Usage
 ```
