@@ -1,0 +1,15 @@
+[user]
+	name = Daniel Proctor
+	email = dan@danielproctor.dev
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
