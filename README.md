@@ -1,11 +1,10 @@
 # dot-files-win
 
-https://github.com/ralish/PSDotFiles
+## Prerequisites
 
-## Installation
-```
-Install-Module -Name PSDotFiles
-```
+- [PSDotFiles](https://github.com/ralish/PSDotFiles)
+- Terminal config references [Chocolatey](https://chocolatey.org/install) which I use as a package manager for desktop software.
+- [Scoop](https://scoop.sh/) is also used for terminal/development related tools.
 
 Clone this repository into `$HOME/dot-files-win`.
 
@@ -13,10 +12,6 @@ Clone this repository into `$HOME/dot-files-win`.
 
 The windows terminal config requires oh-my-posh to be installed.
 
-```
-winget install oh-my-posh
-```
-or
 ```
 scoop install oh-my-posh
 ```
