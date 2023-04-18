@@ -10,15 +10,19 @@ Clone this repository into `$HOME/dot-files-win`.
 
 ### Windows Terminal
 
-The windows terminal config requires oh-my-posh to be installed.
+The windows terminal config requires [oh-my-posh](https://ohmyposh.dev/) to be installed.
 
 ```
-scoop install oh-my-posh
+winget install JanDeDobbeleer.OhMyPosh
 ```
 
-Additionally it requires [Caskaydia Cove NF](https://www.nerdfonts.com/font-downloads). 
+Additionally it requires the [nerd font](https://www.nerdfonts.com/) Caskaydia Cove NF. 
 
-Install `Caskaydia Cove Nerd Font Complete Mono Windows Compatible Regular.otf` and `Caskaydia Cove Nerd Font Complete Windows Compatible Regular.otf`
+```
+scoop bucket add nerd-fonts
+scoop install CascadiaCode-NF
+scoop install CascadiaCode-NF-Mono
+```
 
 ## Usage
 ```
