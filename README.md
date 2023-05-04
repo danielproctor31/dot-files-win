@@ -20,11 +20,12 @@ irm get.scoop.sh | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
+## Usage
+
 Clone this repository into `$HOME/dot-files-win`.
 
-## Usage
+Run the following scripts:
 ```
-cd dot-files-win
 .\setup.ps1
 .\install.ps1
 ```
