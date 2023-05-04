@@ -13,3 +13,5 @@ if (Test-Path($ChocolateyProfile)) {
 # https://github.com/ralish/PSDotFiles
 $DotFilesAutodetect = 'true'
 $DotFilesPath = "$HOME\dot-files-win"
+
+Invoke-Expression (&starship init powershell)
