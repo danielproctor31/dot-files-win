@@ -22,10 +22,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## Usage
 
-Clone this repository into `$HOME/dot-files-win`.
-
-Run the following scripts:
 ```
+git clone git@github.com:danielproctor31/dot-files-win.git $HOME\dot-files-win
+cd $HOME\dot-files-win
 .\setup.ps1
 .\install.ps1
 ```
