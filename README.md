@@ -6,6 +6,22 @@
 - Terminal config references [Chocolatey](https://chocolatey.org/install) which I use as a package manager for desktop software.
 - [Scoop](https://scoop.sh/) is also used for terminal/development related tools.
 
+### Windows
+
+#### Development Mode
+This is required to allowing symlinking of our files:
+
+https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+
+
+#### Allow Executing Powershell Scripts
+
+In powershell run:
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 ### Install Scoop
 
 ```
