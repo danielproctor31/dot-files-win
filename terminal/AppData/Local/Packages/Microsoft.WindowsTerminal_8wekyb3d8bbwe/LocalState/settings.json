@@ -103,6 +103,14 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
+                "guid": "{ab568c79-5f5f-4f1c-a4ff-1af56e874a40}",
+                "hidden": false,
+                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
