@@ -22,6 +22,12 @@ In powershell run:
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
+### Install PSDotFiles
+
+```
+Install-Module -Name PSDotFiles
+```
+
 ### Install Scoop
 
 ```
@@ -38,9 +44,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## Usage
 
+Run in a Powershell console (NOT Windows Terminal):
 ```
 git clone git@github.com:danielproctor31/dot-files-win.git $HOME\dot-files-win
 cd $HOME\dot-files-win
-.\setup.ps1
 .\install.ps1
 ```
