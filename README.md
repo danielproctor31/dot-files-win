@@ -31,7 +31,6 @@ Install-Module -Name PSDotFiles
 ### Install Scoop
 
 ```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 ```
 
