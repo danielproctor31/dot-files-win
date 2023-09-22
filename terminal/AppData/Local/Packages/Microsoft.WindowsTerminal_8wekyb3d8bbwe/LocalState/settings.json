@@ -90,12 +90,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
                 "font": 
                 {
                     "face": "CaskaydiaCove Nerd Font Mono"
@@ -112,6 +106,18 @@
                 "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{dbc37b9e-929e-5575-9e83-e301312c133c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d6cfb5a4-f4da-5cbd-818d-7980ad97d3dd}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
