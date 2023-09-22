@@ -102,20 +102,20 @@
             {
                 "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
                 "guid": "{ab568c79-5f5f-4f1c-a4ff-1af56e874a40}",
-                "hidden": false,
+                "hidden": true,
                 "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
                 "guid": "{dbc37b9e-929e-5575-9e83-e301312c133c}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{d6cfb5a4-f4da-5cbd-818d-7980ad97d3dd}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             }
