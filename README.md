@@ -19,12 +19,6 @@ In powershell run:
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### Install PSDotFiles
-
-```
-Install-Module -Name PSDotFiles
-```
-
 ### Install Scoop
 
 ```
@@ -33,7 +27,7 @@ irm get.scoop.sh | iex
 
 ## Usage
 
-Run in a Powershell console (NOT Windows Terminal):
+Run in a Powershell console:
 ```
 git clone git@github.com:danielproctor31/dot-files-win.git $HOME\dot-files-win
 cd $HOME\dot-files-win
