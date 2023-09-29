@@ -11,10 +11,6 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-# https://github.com/ralish/PSDotFiles
-$DotFilesAutodetect = 'true'
-$DotFilesPath = "$HOME\dot-files-win"
-
 # From https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/creating-profiles?view=powershell-7.3
 ## Set PSReadLine options and keybindings
 $PSROptions = @{
