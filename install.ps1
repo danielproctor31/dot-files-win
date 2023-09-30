@@ -17,7 +17,7 @@ Write-Output "linking dot-files"
 
 New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.wslconfig" -Target "$env:USERPROFILE\dot-files-win\wsl\.wslconfig" -Force
 New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.gitconfig" -Target "$env:USERPROFILE\dot-files-win\git\.gitconfig" -Force
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.config\nvim\init.vim" -Target "$env:USERPROFILE\dot-files-win\nvim\init.vim" -Force
+New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim\init.vim" -Target "$env:USERPROFILE\dot-files-win\nvim\init.vim" -Force
 New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\Documents\Powershell\Microsoft.PowerShell_profile.ps1" -Target "$env:USERPROFILE\dot-files-win\powershell\Microsoft.PowerShell_profile.ps1" -Force
 New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "$env:USERPROFILE\dot-files-win\terminal\settings.json" -Force
 
