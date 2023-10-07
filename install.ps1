@@ -1,3 +1,18 @@
+Write-Output "Setting execution policy"
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+if (Get-Command scoop) 
+{
+    Write-Output "scoop already installed. Updating"
+    scoop update
+} 
+else
+{
+    Write-Output "Installing scoop"
+    Invoke-RestMethod get.scoop.sh | Invoke-Expression
+}
+
+
 Write-Output "Installing oh-my-posh"
 winget install JanDeDobbeleer.OhMyPosh
 
