@@ -35,5 +35,6 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.gitconfig" -Target "$en
 New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim\init.vim" -Target "$env:USERPROFILE\dot-files-win\nvim\init.vim" -Force
 New-Item -ItemType SymbolicLink -Path "$([Environment]::GetFolderPath([Environment+SpecialFolder]::MyDocuments))\Powershell\Microsoft.PowerShell_profile.ps1" -Target "$env:USERPROFILE\dot-files-win\powershell\Microsoft.PowerShell_profile.ps1" -Force
 New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "$env:USERPROFILE\dot-files-win\terminal\settings.json" -Force
+New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\omp.json" -Target "$env:USERPROFILE\dot-files-win\oh-my-posh\omp.json" -Force
 
 Write-Output "Finished"

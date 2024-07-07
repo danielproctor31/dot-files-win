@@ -1,5 +1,5 @@
 # From https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\catppuccin.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:USERPROFILE\omp.json" | Invoke-Expression
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
