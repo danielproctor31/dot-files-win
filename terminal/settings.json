@@ -43,23 +43,13 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "D:\\code"
+                "startingDirectory": "E:\\code"
             },
             {
-                "colorScheme": "Campbell",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
-                "elevate": true,
-                "guid": "{6c63665f-f878-44e3-a3a1-978a1032860b}",
-                "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell (Admin)",
-                "startingDirectory": "%USERPROFILE%"
-            },         
-            {
-                "guid": "{e9f30cd8-746c-5eee-809d-98bcdf94a427}",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Microsoft.WSL"
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -74,16 +64,22 @@
                 "name": "Command Prompt"
             },
             {
+                "guid": "{e636fd95-8db6-56fc-969f-5647553fa92b}",
+                "hidden": false,
+                "name": "wsl-vpnkit",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{384722ec-468a-543b-acb8-57e3d0f20ef1}",
-                "hidden": false,
-                "name": "wsl-vpnkit",
-                "source": "Microsoft.WSL"
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
