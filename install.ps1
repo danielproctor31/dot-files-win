@@ -13,7 +13,7 @@ else
 }
 
 Write-Output "Installing oh-my-posh"
-winget install JanDeDobbeleer.OhMyPosh
+winget install XP8K0HKJFRXGCK # windows store id
 
 Write-Output "Installing nerd-fonts"
 scoop bucket add nerd-fonts
