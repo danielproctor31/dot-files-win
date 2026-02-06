@@ -31,4 +31,7 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock $scriptblock
 Import-Module -Name Microsoft.WinGet.CommandNotFound
 #f45873b3-b655-43a6-b217-97c00aa0db58
 
+# installed with Install-Module -Name Terminal-Icons -Repository PSGallery
+Import-Module Terminal-Icons
+
 Function guid {New-Guid | Set-Clipboard}
