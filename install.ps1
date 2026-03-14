@@ -20,6 +20,13 @@ scoop bucket add nerd-fonts
 scoop install CascadiaCode-NF
 scoop install CascadiaCode-NF-Mono
 
+Write-Output "Installing terminal icons"
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
+Write-Output "Installing command-not-found"
+Enable-ExperimentalFeature PSFeedbackProvider
+Enable-ExperimentalFeature PSCommandNotFoundSuggestion
+Install-PSResource -Name Microsoft.WinGet.CommandNotFound -Repository PSGallery
 Write-Output "Installing Neovim"
 winget install Neovim.Neovim
 
