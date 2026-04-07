@@ -21,5 +21,6 @@ git clone git@github.com:danielproctor31/dot-files-win.git $env:USERPROFILE\dot-
 Run:
 ```
 cd $env:USERPROFILE\dot-files-win
+.\setup.ps1
 .\install.ps1
 ```

@@ -1,0 +1,35 @@
+Write-Output "Setting execution policy"
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+if (Get-Command scoop) 
+{
+    Write-Output "scoop already installed. Updating"
+    scoop update
+} 
+else
+{
+    Write-Output "Installing scoop"
+    Invoke-RestMethod get.scoop.sh | Invoke-Expression
+}
+
+Write-Output "Installing oh-my-posh"
+winget install XP8K0HKJFRXGCK # windows store id
+
+Write-Output "Installing nerd-fonts"
+scoop bucket add nerd-fonts
+scoop install CascadiaCode-NF
+scoop install CascadiaCode-NF-Mono
+
+Write-Output "Installing terminal icons"
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
+Write-Output "Installing command-not-found"
+Enable-ExperimentalFeature PSFeedbackProvider
+Enable-ExperimentalFeature PSCommandNotFoundSuggestion
+Install-PSResource -Name Microsoft.WinGet.CommandNotFound -Repository PSGallery
+Write-Output "Installing Neovim"
+winget install Neovim.Neovim
+
+Write-Output "Installing vim plug"
+Invoke-WebRequest -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    New-Item "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
